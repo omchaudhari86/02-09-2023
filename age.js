@@ -1,12 +1,9 @@
-function isAdult() {
-    let age = prompt("What is your age?");
-    age = parseInt(age);
+let age = prompt("Your age");
 
-    if (age >= 18) {
-        return "You are an adult.";
-    } else {
-        return "You are a minor.";
-    }
+if (age >= 18) {
+    alert("You are an adult");
+} else {
+    alert("You are a minor")
 }
 
-console.log(isAdult());
+console.log("App Ends")
